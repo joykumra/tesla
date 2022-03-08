@@ -33,11 +33,11 @@ const Wrap = styled.div`
   height: 100vh;
   width: 100vw;
   background-image: ${(props) => `url("images/${props.bgImg}")`};
-
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
+  scroll-snap-align: start;
 `;
 
 const ItemText = styled.div`
